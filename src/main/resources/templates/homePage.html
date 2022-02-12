@@ -11,7 +11,7 @@
 
 <div class="questions">
 
-    <p>1) Search student data by student ID ( Example: 800384058 ) </p>
+    <p>1) Search student data by student ID (Example: 800384058) </p>
     <form th:action="@{/getStudentById}">
         <input type="text" name="studentId" />
         <button type="submit" th:name="action" onsubmit="action" formmethod="get" value="${name}"> Search </button><br><br>
